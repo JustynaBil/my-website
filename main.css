@@ -1,12 +1,12 @@
 body {
     margin:0;
     }
-  .container {
+  .main {
     margin: 0;
     width: 850px;
     height: 560px;
     position: relative;
-    background-image: url(myfoto.jpg);
+    background-image: url(img/myfoto.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,7 +19,7 @@ body {
     opacity:0.5;
     margin-top:0;
     margin-left: 30px;
-    width:130px;
+    width:140px;
     height:560px;
     position: relative;
     }
@@ -29,7 +29,7 @@ body {
     color: black;
     top:25px;
     position:relative; 
-    width:90px;
+    width:140px;
     height:350px;
     margin-top:0;
     opacity: 1;
@@ -115,6 +115,7 @@ hr {
     padding-bottom: 10px;
     }
 #interests p {
+   text-align: center;
     color: #595959;
     max-width: 380px; 
     padding-top: 10px;
